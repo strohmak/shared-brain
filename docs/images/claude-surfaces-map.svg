@@ -1,0 +1,82 @@
+<svg viewBox="0 0 680 580" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+
+  <!-- Background -->
+  <rect width="680" height="580" fill="#0f0f0f"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="bold">Shared Brain — Claude Surfaces Map</text>
+  <text x="340" y="56" text-anchor="middle" fill="#555" font-size="12">Right tool, right job</text>
+
+  <!-- ROW 1: CAPTURE SURFACES -->
+  <rect x="30" y="74" width="190" height="100" rx="10" fill="#0d2d2d" stroke="#00b4b4" stroke-width="1"/>
+  <text x="125" y="98" text-anchor="middle" fill="#00b4b4" font-size="13" font-weight="bold">Claude for Chrome</text>
+  <text x="125" y="116" text-anchor="middle" fill="#888" font-size="11">Capture surface</text>
+  <text x="125" y="134" text-anchor="middle" fill="#666" font-size="11">clip · save links</text>
+  <text x="125" y="150" text-anchor="middle" fill="#666" font-size="11">one-click capture</text>
+
+  <rect x="235" y="74" width="190" height="100" rx="10" fill="#0d2d2d" stroke="#00b4b4" stroke-width="1"/>
+  <text x="330" y="98" text-anchor="middle" fill="#00b4b4" font-size="13" font-weight="bold">Claude Mobile</text>
+  <text x="330" y="116" text-anchor="middle" fill="#888" font-size="11">On-the-go capture</text>
+  <text x="330" y="134" text-anchor="middle" fill="#666" font-size="11">voice via Wispr Flow</text>
+  <text x="330" y="150" text-anchor="middle" fill="#666" font-size="11">quick thoughts · anywhere</text>
+
+  <rect x="440" y="74" width="210" height="100" rx="10" fill="#0d2d2d" stroke="#00b4b4" stroke-width="1"/>
+  <text x="545" y="98" text-anchor="middle" fill="#00b4b4" font-size="13" font-weight="bold">Claude Cowork</text>
+  <text x="545" y="116" text-anchor="middle" fill="#888" font-size="11">File surface</text>
+  <text x="545" y="134" text-anchor="middle" fill="#666" font-size="11">process completion packages</text>
+  <text x="545" y="150" text-anchor="middle" fill="#666" font-size="11">route files · automate</text>
+
+  <!-- Arrows down -->
+  <line x1="125" y1="176" x2="125" y2="210" stroke="#333" stroke-width="1" marker-end="url(#b)"/>
+  <line x1="330" y1="176" x2="270" y2="210" stroke="#333" stroke-width="1" marker-end="url(#b)"/>
+  <line x1="545" y1="176" x2="570" y2="210" stroke="#333" stroke-width="1" marker-end="url(#b)"/>
+
+  <!-- ROW 2: THINKING + AUTOMATION -->
+  <rect x="30" y="212" width="300" height="110" rx="10" fill="#1a0d2d" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="180" y="236" text-anchor="middle" fill="#9b59b6" font-size="13" font-weight="bold">Claude Web</text>
+  <text x="180" y="254" text-anchor="middle" fill="#888" font-size="11">Primary thinking partner</text>
+  <text x="180" y="272" text-anchor="middle" fill="#666" font-size="11">strategy · architecture · synthesis</text>
+  <text x="180" y="290" text-anchor="middle" fill="#666" font-size="11">session minutes · contradiction resolution</text>
+  <text x="180" y="308" text-anchor="middle" fill="#555" font-size="10">does NOT write to vault directly</text>
+
+  <rect x="345" y="212" width="305" height="110" rx="10" fill="#1a0d2d" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="497" y="236" text-anchor="middle" fill="#9b59b6" font-size="13" font-weight="bold">Claude Code</text>
+  <text x="497" y="254" text-anchor="middle" fill="#888" font-size="11">Automation surface</text>
+  <text x="497" y="272" text-anchor="middle" fill="#666" font-size="11">scripts · auto-ingest transcripts</text>
+  <text x="497" y="290" text-anchor="middle" fill="#666" font-size="11">generate Obsidian pages from vault</text>
+  <text x="497" y="308" text-anchor="middle" fill="#555" font-size="10">GTM engineering skill development</text>
+
+  <!-- Arrows down -->
+  <line x1="180" y1="324" x2="180" y2="358" stroke="#333" stroke-width="1.2" marker-end="url(#b)"/>
+  <line x1="497" y1="324" x2="497" y2="358" stroke="#333" stroke-width="1.2" marker-end="url(#b)"/>
+
+  <!-- ROW 3: EXECUTION -->
+  <rect x="30" y="360" width="620" height="90" rx="10" fill="#1a1500" stroke="#f0a500" stroke-width="2"/>
+  <text x="340" y="386" text-anchor="middle" fill="#f0a500" font-size="14" font-weight="bold">Claude Desktop — Execution Layer</text>
+  <text x="340" y="406" text-anchor="middle" fill="#888" font-size="12">MCP connections to Supabase + Notion + Obsidian</text>
+  <text x="340" y="424" text-anchor="middle" fill="#666" font-size="11">commits session minutes · writes to vault · updates Notion · generates wiki pages</text>
+  <text x="340" y="442" text-anchor="middle" fill="#555" font-size="10">the ONLY surface with full MCP — always the commit layer</text>
+
+  <!-- Arrow down -->
+  <line x1="340" y1="452" x2="340" y2="484" stroke="#333" stroke-width="1.5" marker-end="url(#b)"/>
+
+  <!-- ROW 4: DESTINATIONS -->
+  <rect x="30" y="486" width="190" height="60" rx="10" fill="#0a1f1f" stroke="#00b4b4" stroke-width="1"/>
+  <text x="125" y="512" text-anchor="middle" fill="#00b4b4" font-size="13" font-weight="bold">Supabase vault</text>
+  <text x="125" y="530" text-anchor="middle" fill="#666" font-size="11">documents · memories · sessions</text>
+
+  <rect x="245" y="486" width="190" height="60" rx="10" fill="#0a1f1f" stroke="#00b4b4" stroke-width="1"/>
+  <text x="340" y="512" text-anchor="middle" fill="#00b4b4" font-size="13" font-weight="bold">Notion</text>
+  <text x="340" y="530" text-anchor="middle" fill="#666" font-size="11">tasks · projects · clients</text>
+
+  <rect x="460" y="486" width="190" height="60" rx="10" fill="#0a1f1f" stroke="#00b4b4" stroke-width="1"/>
+  <text x="555" y="512" text-anchor="middle" fill="#00b4b4" font-size="13" font-weight="bold">Obsidian wiki</text>
+  <text x="555" y="530" text-anchor="middle" fill="#666" font-size="11">compiled understanding</text>
+
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+</svg>
