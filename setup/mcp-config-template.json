@@ -1,4 +1,28 @@
 {
+    "_readme": "Copy this file to ~/Library/Application Support/Claude/claude_desktop_config.json and replace all YOUR_* placeholders with your actual credentials.",
+    
+    "_troubleshooting": {
+      "supabase_mcp": [
+        "Use env vars for credentials, not args",
+        "Requires three credentials: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, SUPABASE_ACCESS_TOKEN",
+        "SUPABASE_URL is the base project URL only — no /rest/v1/ suffix",
+        "SUPABASE_ACCESS_TOKEN is a Personal Access Token (PAT) from your Supabase account settings, not the service role key",
+        "Set PAT to never expire for a personal system"
+      ],
+      "obsidian_mcp": [
+        "Use obsidian-mcp package with local vault folder path",
+        "Do NOT use REST API URL — use the filesystem path to your vault",
+        "If MCP connects but shows limited tools, fully quit and restart Claude Desktop",
+        "npx may need a clean cycle to download and load the full package",
+        "Always test write operations in Claude Desktop, not Claude web"
+      ],
+      "general": [
+        "After any config change, fully quit Claude Desktop (Cmd+Q) and restart",
+        "Check Developer Settings to see MCP server status and view logs",
+        "Each MCP server must be a sibling inside the mcpServers object"
+      ]
+    },
+  
     "mcpServers": {
       "notionApi": {
         "command": "npx",
@@ -21,6 +45,14 @@
           "SUPABASE_SERVICE_ROLE_KEY": "YOUR_SUPABASE_SERVICE_ROLE_KEY",
           "SUPABASE_ACCESS_TOKEN": "YOUR_SUPABASE_PAT"
         }
+      },
+      "obsidian": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "obsidian-mcp",
+          "/YOUR_HOME_FOLDER/shared-brain-wiki"
+        ]
       }
     },
     "preferences": {
