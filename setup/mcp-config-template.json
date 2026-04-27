@@ -1,0 +1,32 @@
+{
+    "mcpServers": {
+      "notionApi": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@notionhq/notion-mcp-server"
+        ],
+        "env": {
+          "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer YOUR_NOTION_API_KEY\", \"Notion-Version\": \"2022-06-28\"}"
+        }
+      },
+      "supabase": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@supabase/mcp-server-supabase@latest"
+        ],
+        "env": {
+          "SUPABASE_URL": "YOUR_SUPABASE_PROJECT_URL",
+          "SUPABASE_SERVICE_ROLE_KEY": "YOUR_SUPABASE_SERVICE_ROLE_KEY",
+          "SUPABASE_ACCESS_TOKEN": "YOUR_SUPABASE_PAT"
+        }
+      }
+    },
+    "preferences": {
+      "coworkScheduledTasksEnabled": true,
+      "ccdScheduledTasksEnabled": true,
+      "sidebarMode": "chat",
+      "coworkWebSearchEnabled": true
+    }
+  }
